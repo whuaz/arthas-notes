@@ -32,7 +32,7 @@
 
   解压后，bin目录有as.bat
 
-  该脚本只接受一个参数pid，所以只能诊断本机上的java进程。
+  该脚本只接受一个参数pid，所以只能诊断本机上的java进程,若诊断远程机器java进程，请使用Web Console
 
   ```
   as.bat <pid>
@@ -82,6 +82,12 @@ java -jar arthas-boot.jar
   time: 2018-12-19 00:06:44
   ```
 
+- 日志目录
+
+  ```shell
+  cd ~/logs/arthas
+  view arthas.log
+  ```
 
 
 ##### 非交互模式启动
