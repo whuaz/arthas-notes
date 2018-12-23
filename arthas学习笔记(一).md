@@ -1,9 +1,12 @@
 ##### Arthas安装(全量安装)
 
 下载地址：
-
+```
+http://repository.sonatype.org/service/local/artifact/maven/redirect?r=central-proxy&g=com.taobao.arthas&a=arthas-packaging&e=zip&c=bin&v=LATEST
+```
+如果下载速度比较慢，可以尝试用阿里云的镜像仓库，比如要下载3.x.x版本（替换3.x.x为最新版本）
 ```http
-
+https://maven.aliyun.com/repository/public/com/taobao/arthas/arthas-packaging/3.x.x/arthas-packaging-3.x.x-bin.zip
 ```
 
 
